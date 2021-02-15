@@ -1,0 +1,9 @@
+def simp_int(p,t,r):
+  SI=(p*t*r)/100
+  print("The simple interest is: ")
+  return SI
+
+p1=int(input("Enter the principle amount: "))
+r1=int(input("Enter the rate of interest: "))
+t1=int(input("Enter the time: "))
+simp_int(p1,t1,r1)
