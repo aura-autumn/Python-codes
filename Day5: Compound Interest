@@ -1,0 +1,11 @@
+def comp_int(p,r,t):
+  amount=p*(pow(1+(r/100), t))
+  print("The amount is: ", amount)
+  CI=amount-p
+  print("The compound interest is: ")
+  return CI
+
+p1=int(input("Enter the principle amount: "))
+r1=int(input("Enter the rate of interest: "))
+t1=int(input("Enter the time: "))
+comp_int(p1,t1,r1)
