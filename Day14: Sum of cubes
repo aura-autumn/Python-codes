@@ -1,0 +1,6 @@
+def sumofcubes(n):
+  x=n*(n+1)/2
+  return int(x*x)
+
+num=int(input("Enter a number: "))
+print (sumofcubes(num))
