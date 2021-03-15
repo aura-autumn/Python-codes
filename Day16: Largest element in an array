@@ -1,0 +1,15 @@
+n=int(input("Enter the number of elements in the arrray: "))
+arr=[]
+for i in range(0,n):
+  ele=int(input())
+  arr.append(ele)
+
+def largest(arr1,num):
+  max=arr1[0]
+  for i in range(1,num):
+    if arr1[i]>max:
+      max=arr1[i]
+  return max
+
+lar=largest(arr,n)
+print("The largest element is :", lar)
