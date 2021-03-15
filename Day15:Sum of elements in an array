@@ -1,0 +1,8 @@
+n=int(input("Enter the number of elements in the arrray: "))
+arr=[]
+for i in range(0,n):
+  ele=int(input())
+  arr.append(ele)
+
+sumofele= sum(arr)
+print (sumofele)
